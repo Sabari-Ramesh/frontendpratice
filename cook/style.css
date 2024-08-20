@@ -1,0 +1,66 @@
+.content{
+    padding-left: 20px;
+}
+
+#maincont{
+
+    background-color: antiquewhite;
+    height:auto;
+    width: 550px;
+    position: absolute;
+    top: 5%;
+    border-radius: 5px;
+    left: 20%;
+    /* transform: translate(-50%, -50%); */
+}
+
+#img{
+    margin: 20px;
+    width: 83%;
+    position: relative;
+    left: 30px;
+    right: 30px;
+    border-radius: 10px;
+}
+
+#head{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#omepara{
+    padding: 2%;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+#pretime{
+    margin: 20px;
+    width: auto;
+    height: auto;
+    background-color: rgb(242, 184, 194);
+    border-radius: 20px;
+}
+#pretimecolor{
+    color: brown;
+    padding: 5px;
+    padding-left: 20px;
+}
+#preul{
+    padding-left:70px;
+}
+.preparli{
+    padding: 8px;
+    font-size: 18px;
+}
+.ingreul{
+    padding-left:70px;
+}
+.ingreli{
+    padding: 8px;
+    font-size: 18px;
+}
+.insli{
+    padding:8px;
+    font-size: 18px;
+}

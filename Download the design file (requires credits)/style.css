@@ -1,0 +1,59 @@
+#lo{
+    margin-top:50px;
+    margin-left: 30vh;
+}
+#tit{
+    margin-left:35vh;
+    margin-top:15vh;
+    font-size: 50px;
+    color:#cfb0b1;
+}
+#btit{
+    margin-left:35vh;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+#imf{
+    float: right;
+    margin-right :60px;
+    margin-top:-80vh;
+    height: 100vh;
+}
+#par{
+    margin-left: 35vh;
+    margin-right: 100vh;
+    font-size: 20px;
+    line-height: 30px;
+    color:#cfb0b1;
+}
+#ema{
+    margin-left: 35vh;
+    height: 45px;
+    border-radius: 30px;
+    width:65vh;
+}
+#ema::placeholder {
+    color:#cfb0b1; 
+    padding-left:30px;
+  }
+#sr{
+    background-color:#cfb0b1;
+    height: 40px;
+    width: 50px;
+    margin-left: -40px;
+    margin-top: -30px;
+    border-radius: 20px;
+  }
+  #btn{
+    cursor: pointer;
+    margin-left :-90px;
+    margin-top: -60px;
+    background-color: #ed979a;
+    height:55px;
+    width: 90px;
+    border-radius: 30px;
+  }
+  #btn:hover{
+    background-color: #e9bebf;
+  }

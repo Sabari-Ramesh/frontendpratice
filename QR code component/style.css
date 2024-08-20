@@ -1,0 +1,27 @@
+#card{
+    height: 500px;
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    margin-top:7%;
+    margin-left: 40%;
+    border-radius: 20px;
+}
+#img{
+    height: 300px;
+    width: 350px;
+    border-radius: 20px;
+}
+#hea{
+    font-size: 30px;
+    font-weight:1200;
+    margin-left: 10px;
+    justify-content: center;
+}
+#par{
+    display: center;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 20px;
+    color: grey;
+}

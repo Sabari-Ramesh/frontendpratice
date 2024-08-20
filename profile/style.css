@@ -1,0 +1,24 @@
+#img1{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 180px;
+    background-color: whitesmoke;
+}
+.template{
+    height: 70px;
+    width: 350px;
+    margin-left: 75px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+   background-color: #fff;
+}
+.divtext{
+    position: absolute;
+    padding-left: 140px;
+    padding-top: 10px;
+    font-weight: bolder;
+    
+}

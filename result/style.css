@@ -1,0 +1,139 @@
+#card{
+    height: 500px;
+    width: 680px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+#left{
+    height: 500px;
+    width: 350px;
+    background-color:blue;
+    border-radius: 50px;
+}
+#res{
+    text-align: center;
+    color: #fff;
+    font-size: xx-large;
+    padding-top: 20px;
+}
+#cir{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    padding-left: 10px;
+    align-items: center;
+    margin: 50px;
+    /* background-color: greenyellow; */
+    background: linear-gradient(45deg, #0b2089, blue);
+    margin-left: 70px;
+}
+#mar{
+    padding-top: 50px;
+    padding-left: 60px;
+    font-size: 70px;
+    font-weight: bolder;
+    color: #fff;
+}
+#out{
+    display: block;
+    /* text-align: center; */
+    padding-left: 70px;
+    color: #ffffff9d;
+}
+#con{
+    text-align: center;
+    color: #fff;
+}
+#some{
+    padding-left: 30px;
+    color: #fff;
+    margin: 30px;
+}
+.sum{
+    float: right;
+    margin-right: 15%;
+}
+.btn{
+    height: 60px;
+    width: 270px;
+    position:absolute;
+    top: 120px;
+    border-radius: 20px;
+    left: 25%;
+    width: 270px;
+    height: 60px;
+    display: flex;
+    align-items: flex-start; 
+    justify-content: flex-end;
+    background: hsla(13, 100%, 56%, 0.1);
+} 
+.btn1{
+height: 60px;
+width: 270px;
+position: absolute;
+border-radius: 20px;
+top: 200px;
+left: 25%;
+width: 270px;
+height: 60px;
+display: flex;
+align-items: flex-start; 
+justify-content: flex-end;
+background: hsla(39, 100%, 56%, 0.1);
+} 
+.btn2{
+height: 60px;
+width: 270px;
+position: absolute;
+border-radius: 20px;
+top: 290px;
+left: 25%;
+width: 270px;
+height: 60px;
+display: flex;
+align-items: flex-start; 
+justify-content: flex-end;
+background: hsl(166, 100%, 37%, 0.1);
+}
+.btn3{
+height: 60px;
+width: 270px;
+position: absolute;
+border-radius: 20px;
+top: 380px;
+left: 25%;
+width: 270px;
+height: 60px;
+display: flex;
+align-items: flex-start; 
+justify-content: flex-end;
+background: hsl(234, 85%, 45%, 0.1);
+}
+#bt{
+    height: 60px;
+    width: 270px;
+    position:absolute;
+    border-radius: 40px;
+    top: 460px;
+    left: 25%;
+    width: 270px;
+    height: 60px;
+    font-size: x-large;
+    color: #fff;
+    background-color: #0b2089; 
+}
+.black-text{
+    margin-top: 25px; 
+    margin-left: auto;
+    margin-right: 10px;
+    color: black;
+    float: inline-end;
+}
+.img{
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.inp{
+    margin-left: 10px;
+}

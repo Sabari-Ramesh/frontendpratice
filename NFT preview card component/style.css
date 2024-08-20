@@ -1,0 +1,101 @@
+#card{
+    height: 572px;
+    width: 350px;
+    background-color:rgb(21, 37, 62);
+    margin-left: 42%;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.images{
+    padding: 20px 20px;
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    .imf{
+        cursor: pointer;
+        height: 300px;
+        width: 300px;
+    }
+}
+.eye{
+    background-color: rgba(169, 200, 227,0.2);
+    position: absolute;
+    margin: 20px 20px;
+    z-index: 2;
+    height: 300px;
+    width: 300px;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.images:hover .eye{
+    display: flex;
+    background-color:rgba(12, 250, 239,0.4) ;
+    margin-right: 50px;
+}
+
+#eq{
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 27px;
+    color: #fff;
+}
+#eq:hover ,#col:hover{
+    color:rgb(12, 250, 239);
+}
+#par{
+    margin-top:-15px;
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgb(126, 152, 185);
+}
+#num{
+    margin-top:-20px;
+    margin-left: 20px;
+    top: 50px;
+}
+#hea{
+    margin-left:5px;;
+    display: inline;
+    letter-spacing: 0.2px;
+    color: rgb(12, 250, 239);
+}
+#clk{
+    display: inline-block;
+    margin-left: 50px;
+}
+#clkhea{ 
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(126, 152, 185);
+}
+#line{
+    margin-top: -20px;
+    width:300px;
+   background-color:rgb(126, 152, 185);
+}
+#person{
+    display: inline;
+    margin-left: 20px;
+    height: 50px;
+    border-color: green;
+    border-width: 5px;
+    border-radius: 10px;
+}
+#bot{
+    margin-top: -40px;
+    margin-left: 80px;
+    color: rgb(126, 152, 185);
+    font-size: 20px;
+}
+#col{
+    cursor: pointer;
+    color: #fff;
+}

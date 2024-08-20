@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+      <div id="first">
+        <h3>Montage Calculator</h3>
+        <p id="clear">Clear All</p><br><br>
+        <!-- <form action=""> -->
+          <label for="Montage">Montage Amount</label>
+          <div id="Amo">
+            <i class="fa-solid fa-euro-sign"></i>
+            <input id="Amount" id="inp1" id="inp" type="text"> 
+          </div>
+          <p id="amount-error" class="error">This field is required</p>
+          <div id="div2">
+            <div class="term1">
+              <label for="Montage Term">Montage Term</label><br>
+              <div id="inp1">
+                <input id="year" type="number"><span>Year</span><br>
+              </div>
+              <p id="year-error" class="error">This field is required</p>
+            </div>
+
+            <div class="term2">
+              <label for="Intrest Amount">Intrest Amount</label><br>
+              <div id="inp1">
+                <input id="interest" type="number"><span>%</span><br>
+              </div>
+              <p id="interest-error" class="error">This field is required</p> 
+              <!--  -->
+            </div>
+            
+          </div>
+
+          <label id="sum" for="Type">Montage Type</label>
+          <div id="div3">
+            <input type="radio" name="Type" value="Repayment" id="Repayment"><span>Repayment</span>
+          </div>
+          <div id="div4">
+            <input type="radio" name="Type" value="Interest Rate" id="interestRate"><span>Interest Rate</span>
+          </div>
+          <!-- id="Montage-error" class="error" -->
+          <p id="Montage-error" class="error">This field is required</p> 
+          <button type="submit" onclick="find()">Calculate Repayment</button>
+        <!-- </form> -->       
+      </div>
+    <div id="Second">
+      <img src="assets/images/illustration-empty.svg" alt="">
+      <h3>Result are Shown Here</h3>
+      <p>Complete the form and click "calculate repayment" to see what your monthly repayment would be.
+      </p>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>

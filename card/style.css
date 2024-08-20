@@ -1,0 +1,50 @@
+#card{
+    background-color: #fff;
+    width: 500px;
+    height: 580px;
+    margin-left: 70vh;
+    border-radius: 5px;
+    border: 2px solid rgba(17, 16, 16, 0.897);
+}
+
+#img{
+    padding: 20px;
+    border-radius: 50px;
+    width: 450px;
+}
+
+#btn{
+    margin-left: 50px;
+    width: 90px;
+    height: 40px;
+    background-color: orange;
+    font-size: bolder;
+    font-weight: 20px;
+}
+#para{
+    font-size: large;
+    margin-left: 50px;
+}
+#html{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+#par{
+    margin-left:50px;
+    font-weight: 20px;
+    margin-right: 50px;
+}
+#im{
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+#name{
+    font-size: large;
+    font-weight: bolder;
+    display:inline-block;
+    padding-top: 10px;
+    margin-left: 10px; 
+}

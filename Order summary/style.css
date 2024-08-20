@@ -1,0 +1,90 @@
+#main{
+    background: #e0e8ff  url("images/pattern-background-desktop.svg") no-repeat;
+    /* width: 100%; */
+    background-size: 100vw;
+}
+#card{
+    height: 600px;
+    width:450px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+#mainimage{
+    border-radius: 10px 10px 0px 0px;
+}
+#hea{
+    text-align: center;
+}
+#para1{
+    margin-top: 30px;
+}
+#para1,#para2,#para3{
+    text-align: center;
+    line-height:5px;
+    color: rgb(130, 141, 163);
+    font-size: 18px;
+    word-spacing: 3px;
+}
+#annual{
+    height: 80px;
+    width: 354px;
+    background-color: #f8f9fe;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+#music{
+    margin-left: 9px;
+    display: inline-block;
+    margin-top: 23px;
+}
+#plan{
+    display:block;
+    margin-left:70px;
+    font-size: 23px;
+    font-weight: x-large;
+    margin-top:-50px;
+}
+#price{
+    display:block;
+    margin-left:70px;
+    margin-top:-20px;
+    letter-spacing: 0.7px;
+}
+#change{
+    display:block;
+    margin-left:260px;
+    margin-top:-55px;
+    letter-spacing: 0.5px;
+    color: blue;
+}
+#btn{
+    width: 354px;
+    margin-top: 25px;
+    height: 50px;
+    margin-left: 40px;
+    background-color: #382ae1;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 900;
+    outline: none;
+    box-shadow: 8px 8px 8px #a7a1e9; 
+    outline: none;
+}
+#btn{
+    outline: none;
+    border: none;
+}
+#cancel{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    color: #7e85a0;
+}
+#cancel{
+    a{
+        text-decoration: none;
+    }
+}

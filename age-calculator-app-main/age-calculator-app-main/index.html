@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<blockquote>
+  <body>
+
+   <div class="con">
+    <div class="container">
+      <div id="day">
+        <label for="day">DAY</label><br>
+      <input id="dayip" type="number" placeholder="DD">
+      <p class="error" id="day-error">This Field is required</p>
+      <p class="error" id="dayvalid-error">Enter the valid one</p>
+      </div>
+      <div id="month">
+        <label for="Month">MONTH</label><br>
+      <input id="monthip" type="number" placeholder="MM">
+      <p class="error" id="month-error">This Field is required</p>
+      <p class="error" id="monthvaild-error">Enter the valid one</p>
+      </div>
+      <div id="year">
+        <label for="Year">YEAR</label><br>
+      <input id="yearip" type="number" placeholder="YYYY">
+      <p class="error" id="yearvaild-error">Enter the valid one</p>
+      <p class="error" id="year-error">This Field is required</p>
+      </div>
+    </div>  
+    <hr>
+    <h1><span id="ye">--</span>Years</h1><br>
+    <h1><span id="mon">--</span>Months</h1><br>
+    <h1><span id="dat">--</span>Days</h1><br>
+    <button type="submit" onclick="calculate()">CALCULATE</button>
+   </div>
+  </body>
+  <script src="index.js"></script>
+</blockquote>
+</html>

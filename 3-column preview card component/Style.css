@@ -1,0 +1,81 @@
+#card{
+    height: 455px;
+    width: 860px;
+    background-color:#fff;
+    display: block;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+.all{
+    height: 455px;
+    width: 286.66px;
+    color: #fff;
+    .par{
+        font-size: 18px;
+        line-height: 1.6;
+        margin-left: 50px;
+    }
+}
+.sedan{
+    font-weight:bolder;
+    margin-left: 50px;
+}
+#div1{
+    background-color: #e28827;
+    border-radius: 10px 0px 0px 10px;
+}
+.imf{
+    display:inline-block;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.btn{
+    margin-top: 30px;
+    width:150px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border: none;
+    letter-spacing:1px;
+}
+#div2{
+    display:block;
+    margin-left :38.5vh;
+    margin-top: -61.7vh;
+    background-color: #00696f;
+}
+#div3{
+    background-color: #004241;
+    margin-top: -455px;
+    margin-left:570.77px;
+    border-radius: 0px 10px 10px 0px;
+}
+.btn:hover{
+    cursor: pointer;
+    border: 2px;
+    border-color: #fff;
+}
+#btn1{
+    color: #e28827;
+}
+#btn2{
+    color: #00696f;
+}
+#btn3{
+    color: #004241;
+}
+#btn1:hover{
+    background-color: #e28827;
+    color: #fff;
+    border: 2px;
+}
+#btn2:hover{
+    background-color: #00696f;
+    color: #fff;
+    border: 2px;
+}
+#btn3:hover{
+    background-color: #004241;
+    color: #fff;
+    border: 2px;
+}

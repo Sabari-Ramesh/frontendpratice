@@ -1,0 +1,87 @@
+blockquote{
+    background-image: url(images/bg-intro-desktop.png);
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 95vh;
+    background-color: rgb(255,121,120);
+    object-fit: cover;
+    display: flex;
+}
+.leftdiv{
+    /* border: 2px solid black; */
+    height: 80vh;
+    width: 110vh;
+    margin: 5vh;
+    margin-left: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+.leftdiv h1{
+    align-items: center;
+    color: #fff;
+    font-size: 60px;
+    margin: 10px;
+    margin-top: 20vh;
+}
+.leftdiv p{
+    color: #fff;
+    margin:10px;
+    margin-top:25px;
+    font-size:23px;
+}
+.rightdiv{
+    /* border: 1px solid black; */
+    height: 80vh;
+    width: 110vh;
+    margin: 5vh;
+   
+}
+.top{
+    color: #fff;
+    background-color: rgb(93,84,163);
+    height: 35px;
+    margin: 30px;
+    border-radius: 5px;
+    box-shadow:2px 3px 0px 0px rgb(38, 35, 60);
+}
+.top p{
+    text-align: center;
+    padding:8px;
+}
+#spn{
+    font-weight:bolder;
+}
+#rightdivtwo{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow:2px 3px 0px 0px #4d4949;
+}
+#rightdivtwo input{
+    margin: 15px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius:7px;
+}
+#rightdivtwo button{
+    cursor: pointer;
+   margin: 15px;
+   height: 40px;
+   color: #fff;
+   background-color: rgb(55,204,138);
+   font-size: 15px;
+   letter-spacing: 1px;
+   word-spacing: 3px;
+   outline: none;
+   border: none;
+   border-radius: 5px;
+}
+#rightdivtwo p{
+    text-align: center;
+}
+#rightdivtwo button:hover{
+    background-color: rgb(55, 90, 204);
+}

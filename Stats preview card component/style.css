@@ -1,0 +1,62 @@
+#card{
+    height: 400px;
+    width:1016.3px;
+    background-color: #1a1938;
+    margin-left: 10%;
+    margin-top: 130px;
+}
+#img{
+    float: right;
+    height:400px;
+    width: 508px;
+}
+#imf{
+    overflow: hidden;
+    position: relative;
+}
+#over{
+    right: 0;
+    height: 400px;
+    width: 508px;
+    background-color:rgba(150, 60, 206, 0.9);
+    position: absolute;
+    z-index: 2;
+}
+#hea{
+    color: #fff;
+    margin-top: -410px;
+    margin-left: 30px;
+    font-size :45px;
+    font-weight:900;
+}
+#spa{
+    color: #9854b0;
+}
+#para{
+    color: #fff;
+    line-height: 1.5;
+    margin-left:30px;
+    font-size: 17px;
+}
+.div1{
+    color: #fff;
+    margin-top: 70px;
+    font-size: bolder;
+    margin-left: 30px;
+}
+.bottom{
+    margin-left: 30px;
+    color: #fff;
+    margin-top: -40px;
+}
+#f1{
+   margin-top: -40px;
+}
+#second{
+    margin-left: 170px;
+    margin-top: -128px;
+}
+#Third{
+    margin-left: 320px;
+    margin-top: -128px;
+}

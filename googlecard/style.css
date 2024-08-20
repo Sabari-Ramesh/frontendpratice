@@ -1,0 +1,79 @@
+#card{
+    width:700px;
+    height:700px;
+    margin: 50px;
+    margin-left: 70vh;
+    background-color: aliceblue;
+    border-radius: 18px;
+}
+#im{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#fq{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-left: 50px;
+    display: inline-flex;
+}
+#wh{
+    font-size: x-large;
+    font-weight: bold;
+    margin: 20px;
+}
+#pr{
+    margin: 20px;
+    color: rgb(110, 130, 130);
+    font-size: 17px;
+}
+.bol{
+    font-weight: bold;
+    margin: 20px;
+    font-size: x-large;
+}
+.lin{
+    margin: 20px;
+    border-top: 1px solid rgb(223, 216, 216);
+}
+
+.cir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(165, 157, 157, 0.873);
+    padding: 0.3rem 0.7rem;
+    border-radius: 50%;
+}
+
+.si {
+    color: white;
+    font-size: 20px;
+}
+
+/* .heading{
+    display: flex;
+    align-items: center;
+    margin: 0.5px;
+}
+.cir1{
+    margin-left: 10vh;
+    background-color: rgba(165, 157, 157, 0.873);
+    padding: 0.3rem 0.7rem;
+    border-radius: 50%;
+    display: inline-block;
+} */
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.cir1 {
+    background-color: rgba(165, 157, 157, 0.873);
+    padding: 0.3rem 0.7rem;
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: space-between;
+}

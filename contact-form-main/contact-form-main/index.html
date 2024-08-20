@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+  <link rel="stylesheet" href="index.css">
+  <script defer src="index.js"></script>
+</head>
+<body>
+
+ <blockquote>
+<div class="container">
+  <h1>Contact Us</h1>
+
+  <form>
+    <div id="div1">
+      <div><label>First Name <span>*</span></label><br>    
+        <input type="text" id="name">
+        <p id="vis">This field is required</p>
+      </div>
+      <div>
+        <label>Last Name <span>*</span></label><br>    
+        <input type="text" id="lasname">
+        <p id="vis">This field is required</p>
+      </div>
+    </div>
+    <label id="ema" for="email">Email Address <span>*</span></label><br>
+    <input  id="email" style="height:25px;  width: 69vh;" type="text">
+    <p id="vis"  id="ema" >Please enter a valid email address This field is required</p>
+
+    <div id="div2">
+      <label id="query-label" for="Query">Query Type <span>*</span></label>
+      <div id="radio-options">
+          <div id="div2_1">
+              <input type="radio" name="sel" id="general">
+              <label for="general">General Enquiry</label>
+          </div>
+          <div>
+              <input type="radio" name="sel" id="support">
+              <label for="support">Support Request</label>
+          </div>
+      </div>
+      <p id="vis">This field is required</p>
+  </div>
+
+    <label id="las" for="message">Message <span>*</span></label><br>
+    <input id="msg" style="height: 90px; width:69vh; border-radius:10px;" type="text"><br>
+    <input id="las" type="checkbox">
+    <label for="chec"> I consent to being contacted by the team</label><br>
+    <p id="vis">To submit this form, please consent to being contacted</p>
+    <button id="las" type="submit" onclick="check()">Submit</button>
+
+  </form>
+</div>
+ </blockquote>
+</body>
+</html>

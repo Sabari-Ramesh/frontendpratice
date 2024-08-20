@@ -1,0 +1,65 @@
+#summary-container {
+    display: flex;
+}
+
+#card{
+    height: 500px;
+    width: 700px;
+    background-color: rgb(233, 229, 224);
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+#left{
+    height: 500px;
+    width: 350px;
+    background-color:blue;
+    border-radius: 50px;
+}
+
+#res{
+    text-align: center;
+    color: #fff;
+    font-size: xx-large;
+    padding-top: 20px;
+}
+
+#cir{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    padding-left: 10px;
+    align-items: center;
+    margin: 50px;
+    background: linear-gradient(45deg, #0b2089, blue);
+    margin-left: 70px;
+}
+
+#mar{
+    padding-top: 50px;
+    padding-left: 60px;
+    font-size: 70px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+#out{
+    display: block;
+    padding-left: 70px;
+    color: #ffffff9d;
+}
+
+#con{
+    text-align: center;
+    color: #fff;
+}
+
+#some{
+    padding-left: 30px;
+    color: #fff;
+    margin: 30px;
+}
+
+#sum{
+    margin-right: 20px;
+}

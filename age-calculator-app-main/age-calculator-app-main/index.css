@@ -1,0 +1,56 @@
+body{
+    background-color: #f0f0f0;
+}
+.con{
+   margin: 5vh 15vh 10vh 50vh;
+    background-color: #ffff;
+    height: 70vh;
+    width: 100vh;
+    border-radius:5px 5px 20vh 5px ;
+}
+.container{
+    display:flex;
+}
+#day , #month , #year{
+    height: 15vh;
+    margin: 25px;
+    width: 30vh;
+    letter-spacing: 1.5px;
+}
+#day{
+    margin-left: 50px;
+}
+input{
+    height: 35px;
+    width: 15vh;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 1px;
+    outline-color: grey;
+
+}
+::placeholder {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: grey;
+    padding:5px;
+  }
+  hr{
+    border:1px solid grey;
+    margin: 10PX 10px 10px 10px; 
+  }
+  h1{
+    margin-left:5vh;
+    letter-spacing:0.5rem;
+    font-weight: bolder;
+  }
+  span{
+    color:#864cff;
+    font-weight: bolder;
+  }
+  .error{
+    color: red;
+    display: none;
+  }

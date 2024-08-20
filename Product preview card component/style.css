@@ -1,0 +1,91 @@
+#card {
+  margin-left: 25%;
+  margin-top: 10%;;
+    position: absolute;
+    height: 500px;
+    width: 800px;
+    background-color: aliceblue;
+    border-radius: 7px;
+    text-align: right; /* Align all text inside card to the right */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align content left within the card */
+  }
+  
+  #img {
+    height: 500px;
+    width: 400px;
+    border-radius: 7px;
+  }
+.right{
+  /* float: right; */
+  position:absolute;
+  display: flex;
+}
+#hea{
+  margin-top: 35px;
+  top: 10px;
+  left: 55%;
+  letter-spacing: 0.5rem;
+  color: rgb(94, 89, 89);
+}
+#nam, #nam2, #nam3{
+  float: left;
+  margin-left :55%;
+}
+#nam{
+  top: 90px;
+}
+#nam2{
+  top: 130px;
+}
+#nam3{
+  top:170px;
+}
+#para{
+  top: 230px;
+  left: 55%;
+  margin-right: 30px; 
+  font-size:18px;
+  color: rgb(94, 89, 89);
+}
+#para1{
+  top: 260px;
+  left: 55%;
+  margin-right: 30px; 
+  font-size:18px;
+  color: rgb(94, 89, 89);
+}
+#para2{
+  top: 290px;
+  left: 55%;
+  margin-right: 30px;
+  font-size:18px; 
+  color: rgb(94, 89, 89);
+}
+#price{
+  left: 55%;
+  top: 350px;
+  color: green;
+  font-weight:900;
+}
+#strike{
+  left: 70%;
+  top: 380px;
+}
+#button{
+  left: 55%;
+  height: 60px;
+  width: 300px;
+  top: 420px;
+  text-align: center;
+  padding-left: 90px;
+  padding-top: 20px;
+  font-size:larger;
+  font-weight: bolder;
+  border-radius: 5px;
+  background-color: green;
+  color: #fff;
+  letter-spacing: 0.02rem;
+}
+

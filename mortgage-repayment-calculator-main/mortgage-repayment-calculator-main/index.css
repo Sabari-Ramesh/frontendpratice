@@ -1,0 +1,117 @@
+body{
+    background-color: #e3f4fc;
+}
+.container{
+    height: 90vh;
+    width: 120vh;
+    border: 2px solid black;
+    display: flex;
+    background-color: #fff;
+}
+#first{
+    height: 90vh;
+    width: 60vh;
+    margin-left: 15px;
+    background-color: #fff;
+}
+#first h3{
+    background-color: violet;
+    font-size:32px;
+    display:inline-flex;
+}
+#clear{
+    text-decoration: underline;
+    display: inline;
+    float: right;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+#Second{
+    height: 90vh;
+    width: 60vh;
+    border-radius: 5px 5px 5px 10vh;
+    background-color: #133040;
+}
+#Amo i{
+
+    width: 20px;
+    height: 28px;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: #e3f4fc; 
+    padding-top: 5px;
+    padding-left: 5px;
+}
+#Amo{
+    border: 3px solid #e3f4fc;
+    margin-top: 10px;
+    width: 55vh;
+}
+label{
+    font-size: large;
+}
+#inp{
+    height: 28px;
+    width: 50vh;
+    border: none;
+    outline: none;
+}
+#div2{
+    display:flex;
+}
+.term1{
+    width:30vh;
+}
+.term2{
+    width:30vh;
+}
+#inp1{
+    border: 2px solid #e3f4fc;
+    margin-top: 20px;
+    /* width: 35vh; */
+}
+#div2 span{
+    background-color: #e3f4fc;
+    padding: 7px 5px 9px 0px;
+}
+#div2 input{
+    outline: none;
+    height: 28px;
+    border: none;
+} 
+#div3 , #div4{
+    border: 2px solid #e3f4fc;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    margin: 20px;
+}
+#div3 span , #div4 span{
+    font-size: large;
+}
+#sum{
+    margin-top: 60px;
+}
+button{
+    margin-left: 15vh;
+    height: 40px;
+    background-color: #d9db32;
+    border-radius: 40px;
+    width: 28vh;
+}
+#Second img{
+    margin: 25vh 20px 0vh 15vh;
+}
+#Second h3{
+    color: #fff;
+    margin-left:15vh;
+}
+#Second p{
+    margin:0vh 7vh 0vh 7vh;
+    color: #fff;
+}
+.error {
+    color: red;
+    display: none; /* Hide error messages by default */
+}

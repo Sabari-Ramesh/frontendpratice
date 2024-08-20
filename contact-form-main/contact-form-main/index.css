@@ -1,0 +1,66 @@
+body{
+    background-color: rgba(127, 255, 212, 0.411);
+}
+.container{
+    border-radius: 10px;
+    padding:30px;
+    width: 90vh;
+    height: 85vh;
+    margin-left:50vh;
+    background-color: aliceblue;
+}
+#div1{
+    margin-left: 50px;
+    display: flex;
+}
+
+#div1 :last-child{
+    padding-left: 45px;
+}
+#div1 input{
+    width: 30vh;
+    height: 25px;
+    border-color:rgb(223, 215, 215);
+    /* border: none; */
+}
+#ema, #email{
+    margin-left: 50px;
+    border-color:rgb(223, 215, 215); 
+}
+
+#div2 {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+#query-label {
+    margin-bottom: 10px; 
+}
+#radio-options {
+    display: flex;
+}
+#radio-options > div {
+    cursor: pointer;
+    text-align: center;
+    margin-right: 20px; 
+    border: 2px solid rgb(223, 215, 215);
+    border-radius: 5px;
+    height: 30px;
+    width: 30vh;
+}
+#vis{
+    visibility:hidden;
+    color: red;
+}
+#las , #msg{
+    margin-left: 50px;
+}
+button{
+    width: 69vh;
+    height: 40px;
+    background-color: rgba(75, 75, 231, 0.825);
+    border: none;
+    color: aliceblue;
+    font-size: 25px;
+    letter-spacing: 2px;
+}

@@ -1,0 +1,31 @@
+#hea{
+    /* float: right; */
+    font-size: 6.5vh;
+    color: #fff;
+    margin-left: 55%;
+    font-weight: bold;
+    margin-top:10%;
+    margin-right: 90px;
+}
+#par{
+    color: #fff;
+    font-size: 2.5vh;
+    margin-left: 55%;
+    margin-right: 90px;
+}
+#im{
+    margin-left: 30px;
+    margin-top:-50vh;
+}
+button{
+    margin-left: 55%;
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    outline: none; 
+    cursor: pointer;
+    span{
+        letter-spacing: 1px;
+        color: rgb(103, 75, 175);
+    }     
+}
