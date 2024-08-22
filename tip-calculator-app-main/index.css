@@ -1,0 +1,100 @@
+*{
+    background-color: #c5e4e7;
+}
+.container{
+    height:370px;
+    width:700px;
+    justify-content: center;
+    display: flex;
+    margin-top: 25vh;
+    margin-left: 50vh;
+    background-color: #fff;
+}
+#first{
+    background-color: #fff;
+    height: 370px;
+    width:350px;
+}
+#lab{
+    background-color: #fff;
+    margin-top: 7vh;
+    margin-left: 15px;
+}
+#per , #per2{
+    margin-left: 15px;
+    height:50px;
+    background-color: #fff;
+}
+h4{
+    background-color: #fff;
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+#Amount,#personnumber{
+    background-image: url(images/icon-dollar.svg);
+    background-repeat: no-repeat;
+    text-align: right;
+    height: 28px;
+    margin-top: -13px;
+    width: 282px;
+    background-position:left;
+    margin-left: 15px;
+}
+button {
+    margin: 3px;
+    width: 90px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: #004a4d;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+input{
+    outline: none;
+    border: none;
+}
+#cus{
+    margin: 3px;
+    width: 82px;
+    height: 35px;
+    margin-left:4px;
+    text-align: center;
+}
+#no{
+    background-color: #fff;
+    margin-left: 15px;
+}
+#personnumber{
+    background-image: url(images/icon-person.svg);
+    margin-top:10px;
+}
+#second{
+    height:320px;
+    width: 250px;
+    margin: 25px;
+    border-radius: 20px;
+}
+#tper{
+    float: right;
+    margin-right:15px ;
+    margin-top:-72px;
+    font-size:40px;
+}
+#second p{
+    margin-left: 25px;
+    margin-top: -15px;
+}
+#second img{
+    height: 35px;
+}
+#Reset{
+   width:150px;
+   margin-left:90px;
+   margin-top: 50px;
+}
+.selected, button:hover{
+    background-color: #24c0b2;
+}

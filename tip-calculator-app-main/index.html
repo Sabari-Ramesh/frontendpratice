@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="index.css">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+  <div class="container">
+    <div id="first">
+      <h3 id="lab">Bill</h3>
+      <input style="background-color: #f4fafa;" type="number" id="Amount" placeholder="0">
+      <h4>Select Tip%</h4>
+      <div id="per">
+        <button class="percentage-btn" data-value="5">5%</button>
+        <button class="percentage-btn" data-value="10">10%</button>
+        <button class="percentage-btn" data-value="15">15%</button>
+      </div>
+      <div id="per2">
+        <button class="percentage-btn" data-value="25">25%</button>
+        <button class="percentage-btn" data-value="50">50%</button>
+        <input style="background-color: #f4fafa;" id="cus" type="number" placeholder="custom ">
+      </div>
+      <label id="no" for="nopeople">No OF People</label><br>
+      <input style="background-color: #f4fafa;" id="personnumber" type="number" placeholder="0">
+    </div>
+    <div id="second">
+      <h3 style="margin-left: 25px;">Tip Amount</h3>
+      <p>/Person</p>
+      <h1 id="tper"><img src="images/icon-dollar.svg" alt=""><span id="tipAmount">0.0</span></h1><br>
+      <h3 style="margin-left: 25px;">Total </h3>
+      <p>/Person</p>
+      <h1 id="tper"><img src="images/icon-dollar.svg" alt=""><span id="total">0.0</span></h1>
+      <button style="margin-left: 80px;margin-top: 45px;" id="resetBtn">Reset</button>
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
